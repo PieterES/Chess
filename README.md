@@ -1,14 +1,18 @@
 # Chess
 Chess board with logic
 
-# To add:
-Very simple AI that chooses a random move and executes it
-More complicated AI that uses MinMax algorithm, which fitness function works best and how deep can we look.
-Optimizing MinMax algorithm through lookup table and knowledge about the game.
-
 A simple chessboard created in Python with all the logic necessary. Check, Checkmate, Promotion, Stalemate, Castling, Double Move, En Passant and Insufficient Material all work properly.
 
-Rules:
+# To add:
+
+Very simple AI that chooses a random move and executes it
+
+More complicated AI that uses MinMax algorithm, which fitness function works best and how deep can we look.
+
+Optimizing MinMax algorithm through lookup table and knowledge about the game.
+
+
+# Rules:
 
 When a piece is clicked on all possible moves are calculated.
 
