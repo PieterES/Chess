@@ -13,14 +13,20 @@ All moves are calculated by creating a second duplicate board. All moves are exe
 **Check:**
 If the king is in check, every move is calculated on the duplicate board aswell to see if it unchecks the king. If such a move exists it is only check.
 
-**Checkmate:**If there are no moves and the king is in check, the attacking player wins.
+**Checkmate:**
+If there are no moves and the king is in check, the attacking player wins.
 
-If a pawn reaches the opposite side, it promotes to a knight, bishop, rook or queen. (Promotion)
+**Promotion:**
+If a pawn reaches the opposite side, it promotes to a knight, bishop, rook or queen.
 
-If there are no moves and the king is not in check, the game ends in a draw (Stalemate)
+**Stalemate:**
+If there are no moves and the king is not in check, the game ends in a draw.
 
-If both the rook and the king have not moved, and the king is not in check, and the two squares the king wants to move does not result in the king being in check, the king can castle (Castling)
+**Castling:**
+If both the rook and the king have not moved, and the king is not in check, and the two squares the king wants to move does not result in the king being in check, the king can castle.
 
-If a pawn hasn't move yet, it may move two squares instead of one (Double Move)
+**Double Move:**
+If a pawn hasn't move yet, it may move two squares instead of one.
 
-If a pawn hasn't move yet, and an opponent pawn is two squares in front of it and the unmoved pawn moves two squares so that both pawns are on the same rank, the attacking pawn may perform En Passant on the next move, but only on the next move. In En Passant the attacking pawn may attack the empty square behind the pawn that just moved two spaces, taking the defending pawn as if the pawn moved one space. (En Passant)
+**En Passant:**
+If a pawn hasn't move yet, and an opponent pawn is two squares in front of it and the unmoved pawn moves two squares so that both pawns are on the same rank, the attacking pawn may perform En Passant on the next move, but only on the next move. In En Passant the attacking pawn may attack the empty square behind the pawn that just moved two spaces, taking the defending pawn as if the pawn moved one space.
