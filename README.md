@@ -3,8 +3,11 @@ Chess board with logic
 
 A simple chessboard created in Python with all the logic necessary. Check, Checkmate, Promotion, Stalemate, Castling, Double Move, En Passant and Insufficient Material all work properly.
 When a piece is clicked on all possible moves are calculated.
+
 All moves are calculated by creating a second duplicate board. All moves are executed on this board to see if moving the piece does not reveal an attack on the king (in which case the piece is pinned)
+
 If the king is in check, every move is calculated on the duplicate board aswell to see if it unchecks the king. If such a move exists it is only check (Check)
+
 If there are no moves and the king is in check, the attacking player wins. (Checkmate)
 If a pawn reaches the opposite side, it promotes to a knight, bishop, rook or queen. (Promotion)
 If there are no moves and the king is not in check, the game ends in a draw (Stalemate)
