@@ -8,7 +8,6 @@ Rules:
 When a piece is clicked on all possible moves are calculated.
 
 Legal Moves:
-
 All moves are calculated by creating a second duplicate board. All moves are executed on this board to see if moving the piece does not reveal an attack on the king (in which case the piece is pinned)
 
 Check:
