@@ -7,13 +7,13 @@ Rules:
 
 When a piece is clicked on all possible moves are calculated.
 
-Legal Moves:
+**Legal Moves:**
 All moves are calculated by creating a second duplicate board. All moves are executed on this board to see if moving the piece does not reveal an attack on the king (in which case the piece is pinned)
 
-Check:
-If the king is in check, every move is calculated on the duplicate board aswell to see if it unchecks the king. If such a move exists it is only check (Check)
+**Check:**
+If the king is in check, every move is calculated on the duplicate board aswell to see if it unchecks the king. If such a move exists it is only check.
 
-If there are no moves and the king is in check, the attacking player wins. (Checkmate)
+**Checkmate:**If there are no moves and the king is in check, the attacking player wins.
 
 If a pawn reaches the opposite side, it promotes to a knight, bishop, rook or queen. (Promotion)
 
