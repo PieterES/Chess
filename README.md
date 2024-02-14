@@ -5,7 +5,7 @@ A simple chessboard created in Python with all the logic necessary. Check, Check
 
 # To add:
 
-Very simple AI that chooses a random move and executes it
+Very simple AI that chooses a random move and executes it.
 
 More complicated AI that uses MinMax algorithm, which fitness function works best and how deep can we look.
 
